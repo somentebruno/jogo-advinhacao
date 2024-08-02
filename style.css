@@ -1,15 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root {
+    font-size: 62.5%;
+}
+
 body {
     background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    font-size: 1.6rem;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 
 main {
-    display: flex;
-    padding: 48px 64px 64px 64px;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
     background: #fff;
-    border-radius: 6px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.10);
+    border-radius: .6rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    
+    
+    
+    
+
+    width: min(42.8rem, 90%);
+    margin: 0 auto;
+    margin-top: -12rem;
 }
