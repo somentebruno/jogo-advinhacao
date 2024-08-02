@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+}
+
+
+main {
+    display: flex;
+    padding: 48px 64px 64px 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
