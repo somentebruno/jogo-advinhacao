@@ -16,10 +16,12 @@ body {
     place-items: center;
     height: 100vh;
 
-    
+
 }
 
-body, button, input{
+body,
+button,
+input {
     font-family: 'Dm Sans', sans-serif;
 }
 
@@ -37,7 +39,7 @@ button:hover {
     background-color: #6363ce;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -46,10 +48,10 @@ main {
     box-shadow: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.10);
     border-radius: .6rem;
     padding: 4.8rem 6.4rem 6.4rem;
-    
+
     text-align: center;
-    
-    
+
+
 
     width: min(42.8rem, 90%);
     margin: 0 auto;
@@ -65,7 +67,8 @@ h1 {
     margin-bottom: 1.6rem;
 }
 
-h1, p {
+h1,
+p {
     color: #34355B;
 }
 
@@ -79,7 +82,8 @@ form {
     justify-content: center;
 }
 
-input, button {
+input,
+button {
     border: none;
     padding: 1.6rem;
 }
@@ -87,7 +91,8 @@ input, button {
 input {
     background-color: #DCE2E9;
     width: 6rem;
-    border-radius: 4px 0 0 4px;;
+    border-radius: 4px 0 0 4px;
+    ;
 }
 
 
@@ -103,4 +108,32 @@ h2 {
 
 .screen2 button {
     border-radius: .4rem;
+}
+
+/* Animations */
+.input-error {
+    outline: 2px solid #ef4444;
+    animation: shake 0.4s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-8px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    75% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
